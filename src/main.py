@@ -119,8 +119,6 @@ def main() -> None:
     # Final summary
     end_dist = np.linalg.norm(traj_xy[-1])
     print(f"[done] wrote {png_path}")
-    if args.video:
-        print(f"[done] wrote {mp4_path}")
     print(f"[summary] end distance to origin ≈ {end_dist:.2f} m")
 
 
